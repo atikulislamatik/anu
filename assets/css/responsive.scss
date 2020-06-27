@@ -7,11 +7,10 @@
         height: 100%;
     }
     .content {
-        height: unset !important;
         .main-content {
             .home-area {
                 padding-top: 90px;
-                padding-bottom: 50px;
+                padding-bottom: 90px;
                 .home-content {
                     h1 {
                         font-size: 70px;
@@ -38,9 +37,8 @@
                     }
                 }
             }
-            .resume-area {
+            .review-area{
                 padding-top: 0;
-                height: 100% !important;
             }
             .portfolio-area {
                 padding-top: 0;
@@ -57,12 +55,11 @@
                 }
             }
             .blog-area{
-                padding-top: 0;
                 .single-blog{
                     .blog-content{
                         padding: 20px;
                         h3{
-                            font-size: 22px;
+                            font-size: 21px;
                         }
                         .author{
                             flex-direction: column;
@@ -74,7 +71,6 @@
                 }
             }
             .contact-area{
-                padding-top: 0;
                 .form-control {
                     width: 100%;
                 }
@@ -130,7 +126,7 @@
         margin-top: -5px;
     }
     .mobile-nav nav .navbar-nav {
-        height: 260;
+        height: 265;
         overflow-y: scroll;
     }
 }
